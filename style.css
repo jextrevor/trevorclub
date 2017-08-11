@@ -20,16 +20,14 @@ div.spacer{
     height:30%;
 }
 div.container{
-    padding-left:15%;
-    padding-right:15%;
-    width:100%;
+    margin-left:15%;
+    margin-right:15%;
 }
 div.container.header h1{
     color:#EEEEEE;
     font-weight:bold;
     font-size:5vw;
     margin-bottom:5px;
-    width:100%;
 }
 div.container.header p{
     color:#EEEEEE;
@@ -42,8 +40,8 @@ div.container.header{
 }
 @media screen and (orientation:portrait) {
    div.container{
-       padding-left:10px;
-       padding-right:10px;
+       margin-left:10px;
+       margin-right:10px;
    }
     div.container.header h1{
     font-size:11vw;
