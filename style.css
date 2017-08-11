@@ -22,13 +22,14 @@ div.spacer{
 div.container{
     padding-left:15%;
     padding-right:15%;
-    width:100%
+    width:100%;
 }
 div.container.header h1{
     color:#EEEEEE;
     font-weight:bold;
     font-size:5vw;
     margin-bottom:5px;
+    width:100%;
 }
 div.container.header p{
     color:#EEEEEE;
