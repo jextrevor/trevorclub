@@ -1,4 +1,4 @@
-.background{
+div.background{
     position:absolute;
     top:0px;
     left:0px;
@@ -7,17 +7,22 @@
     background-color:#262680;
     z-index:-1;
 }
-.spacer{
+div.spacer{
     margin:0px;
     padding:0px;
     height:30%;
 }
-.container{
+div.container{
     margin-left:15%;
     margin-right:15%;
 }
+div.container h1.header{
+    color:#EEEEEE;
+    font-weight:bold;
+    font-size:3em;
+}
 @media screen and (max-width: 500px) {
-   .container{
+   div.container{
        margin-left:10px;
        margin-right:10px;
    }
