@@ -43,6 +43,9 @@ div.container.header{
        margin-left:10px;
        margin-right:10px;
    }
+    div.container.header h1{
+    font-size:10vw;
+    }
 }
 html{
     height:100%;
