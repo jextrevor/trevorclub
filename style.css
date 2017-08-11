@@ -7,6 +7,13 @@ div.background{
     background-color:#262680;
     z-index:-1;
 }
+div.content{
+    position:absolute;
+    top:100%;
+    left:0px;
+    width:100%;
+    min-height:100%;
+}
 div.spacer{
     margin:0px;
     padding:0px;
