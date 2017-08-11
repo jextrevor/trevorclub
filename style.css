@@ -23,10 +23,12 @@ div.container{
     margin-left:15%;
     margin-right:15%;
 }
-div.container h1.header{
+div.container.header h1{
     color:#EEEEEE;
     font-weight:bold;
     font-size:5em;
+}
+div.container.header{
     position:sticky;
     top:0px;
 }
