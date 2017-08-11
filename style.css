@@ -19,7 +19,7 @@ div.container{
 div.container h1.header{
     color:#EEEEEE;
     font-weight:bold;
-    font-size:3em;
+    font-size:5em;
 }
 @media screen and (max-width: 500px) {
    div.container{
