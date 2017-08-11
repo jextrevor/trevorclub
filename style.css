@@ -47,6 +47,10 @@ div.container.header{
     font-size:11vw;
     text-align:center;
     }
+    div.container.header p{
+    font-size:1vw;
+    text-align:center;
+    }
 }
 html{
     height:100%;
