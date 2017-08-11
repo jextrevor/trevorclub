@@ -28,6 +28,10 @@ div.container.header h1{
     font-weight:bold;
     font-size:5em;
 }
+div.container.header p{
+    color:#EEEEEE;
+    font-size:2em;
+}
 div.container.header{
     position:sticky;
     top:0px;
