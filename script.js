@@ -1,3 +1,3 @@
 function scroll(){
-    document.getElementById("background").style.top = "-100%";
+    document.getElementById("page").style.top = "-100%";
 }
