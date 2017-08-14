@@ -11,6 +11,8 @@ html {
     max-width: 1000px;
 }
 .navigation{
+    position:fixed;
+    top:0px;
     height:70px;
     background-color:#262680;
     width:100%;
