@@ -10,3 +10,8 @@ html {
     padding: 0 10px;
     max-width: 1000px;
 }
+.navigation{
+    height:70px;
+    background-color:#262680;
+    width:100%;
+}
