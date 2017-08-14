@@ -85,6 +85,10 @@ body{
     width:100%;
     margin:0px;
     padding:0px;
+    position:absolute;
+    top:0px;
+    -webkit-transition: top 2s;
+    transition: top 2s;
 }
 html *{
     font-family:Arial, Helvetica, sans-serif;
