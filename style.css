@@ -70,23 +70,32 @@ h1{
 .s50 {
     width: 100%;
 }
+.desktop{
+    display:none;
+}
 @media only screen and (min-width: 800px) {
     .s100 {
-    width: 100%;
+        width: 100%;
     }
     .s50 {
-    width: 50%;
+        width: 50%;
     }
     .s33 {
-    width: calc(100% / 3);
+        width: calc(100% / 3);
     }
     .s25 {
-    width: 25%;
+        width: 25%;
     }
     .s67 {
-    width: calc(100% / 3 * 2);
+        width: calc(100% / 3 * 2);
     }
     .c {
-    float: left;
+        float: left;
+    }
+    .mobile{
+        display:none;
+    }
+    .desktop{
+        display:block;
     }
 }
