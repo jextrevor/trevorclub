@@ -17,7 +17,8 @@ div.content{
 a.arrow{
     position: absolute;
     bottom:0px;
-    text-align:center
+    text-align:center;
+    width:100%;
 }
 a.arrow img{
     width:50px;
