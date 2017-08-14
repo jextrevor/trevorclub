@@ -24,6 +24,11 @@ html {
     padding-left:20px;
     font-size:2em;
 }
+hr{
+    background-color:#CCCCCC;
+    height:1px;
+    border:0;
+}
 a.button{
     text-decoration:none;
 }
