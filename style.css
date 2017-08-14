@@ -14,9 +14,13 @@ div.content{
     width:100%;
     min-height:100%;
 }
-img.arrow{
+a.arrow{
     position: absolute;
     bottom:0px;
+    text-align:center
+}
+a.arrow img{
+    width:50px;
 }
 div.spacer{
     margin:0px;
