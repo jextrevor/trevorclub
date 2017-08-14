@@ -24,7 +24,10 @@ html {
     padding-left:20px;
     font-size:2em;
 }
-button{
+a.button{
+    text-decoration:none;
+}
+a.button, button{
     height:35px;
     border:1px solid #262680;
     border-radius:2px;
@@ -34,7 +37,7 @@ button{
     outline:none;
     transition: color 0.25s, background-color 0.25s;
 }
-button:hover{
+a.button:hover, button:hover{
     background-color:#6E6EAA;
     color:#FFFFFF;
 }
