@@ -35,8 +35,8 @@ button{
     transition: color 0.25s, background-color 0.25s;
 }
 button:hover{
-    background-color:#FFFFFF;
-    color:#6E6EAA;
+    background-color:#6E6EAA;
+    color:#B7B7D5;
 }
 .nav-padding{
     height:70px;
