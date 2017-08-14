@@ -98,7 +98,7 @@ h1{
         float: left;
     }
     .mobile{
-        display:none;
+        display:none!important;
     }
     .desktop{
         display:block;
