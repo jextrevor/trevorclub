@@ -29,7 +29,8 @@ button{
     border:1px solid #262680;
     border-radius:2px;
     background-color:#262680;
-    color:white;
+    color:#FFFFFF;
+    padding: 0 10px;
 }
 .nav-padding{
     height:70px;
