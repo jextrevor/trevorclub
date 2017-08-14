@@ -40,3 +40,36 @@ p.large{
 h1{
     font-weight:normal;
 }
+.row::before,
+.row::after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+.s100,
+.s33,
+.s67,
+.s25,
+.s50 {
+  width: 100%;
+}
+@media only screen and (min-width: 800px) {
+  .s100 {
+    width: 100%;
+  }
+  .s50 {
+    width: 50%;
+  }
+  .s33 {
+    width: calc(100% / 3);
+  }
+  .s25 {
+    width: 25%;
+  }
+  .s67 {
+    width: calc(100% / 3 * 2);
+  }
+  .c {
+    float: left;
+  }
+}
