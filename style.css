@@ -27,9 +27,10 @@ html {
 .nav-padding{
     height:70px;
 }
-.center{
+.header{
     width:100%;
     text-align:center;
+    font-size:3em;
 }
 h1{
     font-weight:normal;
