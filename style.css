@@ -14,6 +14,10 @@ div.content{
     width:100%;
     min-height:100%;
 }
+img.arrow{
+    position: absolute;
+    bottom:0px;
+}
 div.spacer{
     margin:0px;
     padding:0px;
@@ -28,15 +32,21 @@ div.container.header h1{
     font-weight:bold;
     font-size:5vw;
     margin-bottom:5px;
+    background-color:#262680;
+    z-index:1;
 }
 div.container.header p{
     color:#EEEEEE;
+    background-color:#262680;
     font-size:1em;
     padding-bottom:10px;
+    z-index:1;
 }
 div.container.header{
+    background-color:#262680;
     position:sticky;
     top:1px;
+    z-index:1;
 }
 @media screen and (orientation:portrait) {
    div.container{
@@ -66,4 +76,7 @@ body{
 }
 html *{
     font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    font-weight:normal;
 }
