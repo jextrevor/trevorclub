@@ -38,6 +38,10 @@ button:hover{
     background-color:#FFFFFF;
     color:#262680;
 }
+button:active{
+    background-color:#262680;
+    color:#FFFFFF;
+}
 .nav-padding{
     height:70px;
 }
