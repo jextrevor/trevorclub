@@ -43,10 +43,6 @@ a.button, button{
     padding: 0 10px;
     outline:none;
 }
-a.button:hover, button:hover{
-    background-color:#6E6EAA;
-    color:#FFFFFF;
-}
 .nav-padding{
     height:70px;
 }
@@ -109,5 +105,8 @@ h1{
     }
     a.button, button{
         transition: color 0.25s, background-color 0.25s;
+    }
+    a.button:hover, button:hover{
+        background-color:#6E6EAA;
     }
 }
