@@ -71,11 +71,7 @@ h1{
 .row{
     margin-bottom:20px;
 }
-.s100,
-.s33,
-.s67,
-.s25,
-.s50 {
+.c {
     width: 100%;
 }
 .desktop{
@@ -99,6 +95,13 @@ h1{
     }
     .c {
         float: left;
+        padding:0px 5px;
+    }
+    .f {
+        padding-left:0px;
+    }
+    .l {
+        padding-right:0px;
     }
     .mobile{
         display:none!important;
