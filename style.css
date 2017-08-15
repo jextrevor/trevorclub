@@ -36,7 +36,7 @@ a.button, button{
     height:35px;
     line-height:35px;
     display:inline-block;
-    border:1px solid #262680;
+    /*border:1px solid #262680;*/
     border-radius:2px;
     background-color:#262680;
     color:#FFFFFF;
