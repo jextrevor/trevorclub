@@ -42,7 +42,6 @@ a.button, button{
     color:#FFFFFF;
     padding: 0 10px;
     outline:none;
-    transition: color 0.25s, background-color 0.25s;
 }
 a.button:hover, button:hover{
     background-color:#6E6EAA;
@@ -107,5 +106,8 @@ h1{
     }
     .desktop{
         display:block;
+    }
+    a.button, button{
+        transition: color 0.25s, background-color 0.25s;
     }
 }
