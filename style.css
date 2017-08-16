@@ -24,6 +24,9 @@ html {
     padding-left:20px;
     font-size:2em;
 }
+.navigation .brand.container{
+    padding-left:10px;
+}
 hr{
     background-color:#CCCCCC;
     height:1px;
