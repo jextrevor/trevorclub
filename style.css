@@ -36,12 +36,16 @@ a.button, button{
     height:35px;
     line-height:35px;
     display:inline-block;
-    /*border:1px solid #262680;*/
+    border:1px solid #262680;
     border-radius:4px;
     background-color:#262680;
     color:#FFFFFF;
     padding: 0 10px;
     outline:none;
+}
+a.button.secondary, button.secondary{
+    background-color:#FFFFFF;
+    color:#262680;
 }
 .nav-padding{
     height:70px;
@@ -110,9 +114,13 @@ h1{
         display:block;
     }
     a.button, button{
-        transition: color 0.25s, background-color 0.25s;
+        transition: color 0.25s, background-color 0.25s, border-color 0.25s;
+    }
+    a.button.secondary:hover, button.secondary:hover{
+        background-color:#DDDDDD;
     }
     a.button:hover, button:hover{
         background-color:#6E6EAA;
+        border-color:#6E6EAA;
     }
 }
